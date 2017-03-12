@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Döviz Kuru</title>
+      <style>
+      	.doviz{
+      		background:url("img/arkaplan.png");
+      		margin: 0 auto;
+      	}
+      	.doviz img {
+      		width: 48px;
+      	}
+      	.doviz .logo {
+      		width: 55px;
+      	}
+      	.doviz tr td:first-child {
+      		text-align: center;
+      	}
+      	.doviz thead th {
+      		color: orange;
+      	}
+      	.doviz .artis {
+      		color: green;
+      	}
+      	.doviz .azalis {
+      		color: red;
+      	}
+      	.doviz .artis td:nth-child(2), .doviz .artis td:nth-child(3) {
+      		background: url("img/artis.png") no-repeat 5px center;
+      		background-size: 40%;
+      		padding-left: 55px;
+      	}
+      	.doviz .azalis td:nth-child(2), .doviz .azalis td:nth-child(3) {
+      		background: url("img/azalis.png") no-repeat 5px center;
+      		background-size: 40%;
+      		padding-left: 55px;
+      	}
+      	.doviz td {
+      		padding: 10px;
+      	}
+      </style>
+   </head>
+   <body>
+      <table class="doviz" border="1">
+      	<thead>
+         <tr>
+            <th><img class="logo" src="doviz.png"></th>
+            <th>Alış</th>
+            <th>Satış</th>
+         </tr>
+      	</thead>
+         <tr class="artis">
+            <td><img src="altin.png"></td>
+            <td>231.79</td>
+            <td>237.04</td>
+         </tr>
+         <tr class="azalis">
+            <td><img src="dolar.png"></td>
+            <td>3.5965</td>
+            <td>3.5986</td>
+         </tr>
+         <tr class="artis">
+            <td><img src="euro.png"></td>
+            <td>3.8026</td>
+            <td>3.8048</td>
+         </tr>
+         <tr class="artis">
+            <td><img src="sterlin.png"></td>
+            <td>4.4856</td>
+            <td>4.4894</td>
+         </tr>
+         <tr class="artis">
+            <td><img src="yen.png"></td>
+            <td>0.9783</td>
+            <td>0.9788</td>
+         </tr>
+      </table>
+   </body>
+</html>
